@@ -1,8 +1,9 @@
 <template>
   <div id="app">
     <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+      <!-- <router-link to="/">Home</router-link> |
+      <router-link to="/about">About</router-link> -->
+      <p>Header area, to match the L&amp;F of the FZ website.</p>
     </div>
     <router-view/>
   </div>
@@ -18,7 +19,8 @@
 }
 
 #nav {
-  padding: 30px;
+  padding: 5px;
+  background-color: silver;
 }
 
 #nav a {
